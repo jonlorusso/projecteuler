@@ -7,4 +7,5 @@ open https://projecteuler.net/problem=$1
 
 touch $file
 git add $file
+echo "#!/usr/bin/env python\n\n" > $file
 vim $file
